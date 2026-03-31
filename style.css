@@ -369,7 +369,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    
+
+    .minha-foto {
+        order: 1;
+        max-width: 60%;
+        margin-bottom: 10px;
+    }
+
+        
     h1.nome-integrado {
         font-size: 32px;
     }
