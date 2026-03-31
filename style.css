@@ -267,138 +267,81 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-    
-    main {
-        padding: 60px 20px;
-    }
-
     .portfolio-container {
-        flex-direction: column; 
+        flex-direction: column;
         text-align: center;
         gap: 30px;
     }
-    .informacao {
-        order: 2;
-        padding: 25px;
-        max-width: 90%;
-    }
-    h1.nome-integrado {
-        font-size: 38px;
-    }
     .minha-foto {
-        order: 1;
         max-width: 60%;
-        margin-bottom: 10px;
     }
-    
-    .devfs {
-        font-size: 1.8rem;
-        margin-top: 15px;
-        margin-bottom: 25px;
-    }
-    .sobre-mim-simplificado-section, .contato-extended-section {
-        padding: 60px 20px;
-    }
-    
     .perfil-content-cards {
-        flex-wrap: wrap; 
-        gap: 20px;
+        flex-wrap: wrap;
     }
     .perfil-card {
-        flex: 1 1 calc(50% - 10px); 
-        max-width: none;
-    }
-    
-    .section-title {
-        font-size: 36px;
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
-@media screen and (max-width: 600px) {
 
-    main {
-    
-        padding: 40px 15px !important; 
-        min-height: auto;
+@media screen and (max-width: 600px) {
+    main, .sobre-mim-simplificado-section, .contato-extended-section {
+        padding: 40px 20px !important;
     }
 
     .portfolio-container {
-        flex-direction: column !important; 
-        text-align: center;
-        gap: 20px;
-        width: 100%;
-        max-width: 100%;
+        flex-direction: column !important;
+        gap: 25px;
     }
 
     .minha-foto {
-        order: 1 !important; 
-        max-width: 85% !important; 
-        margin: 0 auto 10px auto;
+        order: 1 !important;
+        max-width: 80% !important;
+        margin: 0 auto;
     }
 
     .informacao {
-        order: 2 !important; 
+        order: 2 !important;
+        padding: 20px !important;
         width: 100% !important;
-        padding: 20px 15px !important;
-        max-width: 100%;
     }
 
     h1.nome-integrado {
-        font-size: 26px !important; 
-        margin-bottom: 15px;
-    }
-
-    .tecnologias {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-bottom: 20px;
-    }
-
-    .tecnologias img {
-        margin: 0 5px;
+        font-size: 28px !important;
     }
 
     .devfs {
-        font-size: 1.5rem !important;
-        margin: 10px 0 20px 0;
+        font-size: 1.6rem !important;
     }
 
     .portfolio-button {
-        display: block;
+        display: block !important;
         width: 100%;
         margin: 10px 0 !important;
-        padding: 12px;
+        text-align: center;
     }
 
-    @media screen and (max-width: 480px) {
-    /* Força o navegador a não diminuir o zoom */
-    html, body {
-        overflow-x: hidden !important;
-        width: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
+    .perfil-content-cards {
+        flex-direction: column;
+        align-items: center;
     }
 
-
-    main, section, footer {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
-    }
-
-    .portfolio-container, .perfil-content-cards, .contato-card-final {
-        max-width: 100% !important;
-        width: 100% !important;
-        margin: 0 !important;
-    }
-
-    .minha-foto {
-        max-width: 250px !important;
-        width: 70% !important;
-        height: auto !important;
+    .perfil-card {
+        max-width: 100%;
+        width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    h1.nome-integrado {
+        font-size: 24px !important;
+    }
+    
+    .minha-foto {
+        max-width: 90% !important;
+    }
+
+    .section-title {
+        font-size: 30px !important;
+    }
 }
