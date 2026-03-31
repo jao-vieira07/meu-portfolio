@@ -371,4 +371,34 @@ footer {
         margin: 10px 0 !important;
         padding: 12px;
     }
+
+    @media screen and (max-width: 480px) {
+    /* Força o navegador a não diminuir o zoom */
+    html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    main, section, footer {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .portfolio-container, .perfil-content-cards, .contato-card-final {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .minha-foto {
+        max-width: 250px !important;
+        width: 70% !important;
+        height: auto !important;
+    }
+}
 }
