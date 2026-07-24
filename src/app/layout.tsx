@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Playfair_Display, JetBrains_Mono } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import JsonLd from "@/components/seo/JsonLd";
 import { siteUrl } from "@/lib/site";
 import "./globals.css";
@@ -65,6 +66,7 @@ export default function RootLayout({
         </a>
         <JsonLd />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
