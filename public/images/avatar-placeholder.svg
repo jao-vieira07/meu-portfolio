@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <rect width="400" height="480" fill="#1a1230"/>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b337e"/>
+      <stop offset="50%" stop-color="#a049a4"/>
+      <stop offset="100%" stop-color="#c77dff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="180" r="80" fill="#2e224e" stroke="url(#glow)" stroke-width="3"/>
+  <text x="200" y="195" text-anchor="middle" fill="url(#glow)" font-family="serif" font-size="48" font-weight="bold">JP</text>
+  <rect x="100" y="300" width="200" height="4" rx="2" fill="#7b337e" opacity="0.5"/>
+  <text x="200" y="340" text-anchor="middle" fill="#a049a4" font-family="monospace" font-size="14" letter-spacing="4">BACK-END DEV</text>
+  <text x="200" y="370" text-anchor="middle" fill="#e0e0e0" font-family="monospace" font-size="11" opacity="0.6">Engenharia de Software</text>
+</svg>

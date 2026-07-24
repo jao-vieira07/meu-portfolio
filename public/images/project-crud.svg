@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#1a1230"/>
+  <rect x="120" y="60" width="200" height="280" rx="8" fill="#2e224e" stroke="#7b337e" stroke-width="1.5"/>
+  <rect x="340" y="60" width="200" height="280" rx="8" fill="#2e224e" stroke="#7b337e" stroke-width="1.5"/>
+  <rect x="560" y="60" width="120" height="130" rx="8" fill="#3f326d" stroke="#a049a4" stroke-width="1.5"/>
+  <rect x="560" y="210" width="120" height="130" rx="8" fill="#3f326d" stroke="#a049a4" stroke-width="1.5"/>
+  <text x="220" y="210" text-anchor="middle" fill="#a049a4" font-family="monospace" font-size="16">CRUD</text>
+  <text x="440" y="210" text-anchor="middle" fill="#e0e0e0" font-family="monospace" font-size="16">PostgreSQL</text>
+  <text x="620" y="130" text-anchor="middle" fill="#c77dff" font-family="monospace" font-size="12">API</text>
+  <text x="620" y="280" text-anchor="middle" fill="#c77dff" font-family="monospace" font-size="12">DB</text>
+</svg>

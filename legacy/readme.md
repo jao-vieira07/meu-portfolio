@@ -1,0 +1,1 @@
+Esse é a versão 2 do meu  portfólio, dediquei algumas horas e me sinto honrado em dizer que ele está pronto, aqui você pode ver mais sobre mim e alguns projetos que construi.
